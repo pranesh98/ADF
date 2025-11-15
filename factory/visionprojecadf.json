@@ -1,0 +1,9 @@
+{
+	"name": "visionprojecadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "55e466e4-e463-4d40-a1e2-18a1a7149fdd",
+		"tenantId": "2f7f8249-dd54-4c66-a2be-94c6648757df"
+	}
+}

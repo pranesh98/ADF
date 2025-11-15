@@ -1,0 +1,21 @@
+{
+	"name": "sinkparaqut",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "data_ec0ad987-1061-47f4-9ff2-8d792e518d17_c84e4ea6-b312-4e7e-94a3-af544a2bea37.txt",
+				"fileSystem": "sinkdata"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

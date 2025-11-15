@@ -1,0 +1,17 @@
+{
+	"name": "azuresqltablerawsocial",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqltable",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "social_media_raw"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

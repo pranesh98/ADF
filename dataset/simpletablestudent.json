@@ -1,0 +1,17 @@
+{
+	"name": "simpletablestudent",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqltable",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "students"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
